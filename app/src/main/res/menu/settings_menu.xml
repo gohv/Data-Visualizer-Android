@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <!-- Start button, should switch to stop if possible -->
+    <item
+        android:id="@+id/action_start"
+        android:icon="@drawable/ic_play_arrow_black_24dp"
+        android:title="@string/start_button"
+        app:showAsAction="always" />
+    <!-- Stop button, should switch to stop if possible -->
+    <item
+        android:id="@+id/action_stop"
+        android:icon="@drawable/ic_stop_black_24dp"
+        android:title="@string/stop_button"
+        app:showAsAction="always" />
+    <!-- "Choose Settings", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_build_black_24dp"
+        android:title="@string/choose_settings"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>

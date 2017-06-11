@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">"Experiment "</string>
+    <string name="menuitem_change_value">Change Value</string>
+    <string name="choose_settings">Choose Settings</string>
+    <string name="change_value">Change Generated Value</string>
+    <string name="change_frequency">Change Frequency</string>
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
+    <string name="no_data_string">No Data</string>
+    <string name="fragment_show">show</string>
+    <string name="data_set">Data</string>
+    <string name="enable_logging">Enable Logging</string>
+    <string name="logging_info">Setting this to ON will activate chart log output. Enabling this is bad for performance, keep disabled if not necessary.</string>
+</resources>
